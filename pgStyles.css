@@ -1,0 +1,87 @@
+body {
+    background-color: rgb(62, 73, 73);
+}
+
+h2{
+  color:#252525;
+  position: absolute;
+  left:17.5%;
+  top:10%;
+}
+
+label{
+  color:#252525;
+}
+
+.genWindow{
+  background-color: beige;
+  border: 1px solid #252525;
+  border-radius: 10px;
+  padding: 10px;
+  position: relative;
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 500px;
+  margin: 0 auto;
+  top:175px;
+}
+
+.passButtons{
+  position: absolute;
+  bottom: 15%;
+  left: 25%;
+}
+
+.passGen{
+  position: absolute;
+  text-align: center;
+  left:22.5%;
+  bottom:45%;
+}
+
+.lengthInput{
+  position: absolute;
+  text-align: center;
+  width: 20px;
+  left:45.5%;
+  top:35%;
+}
+
+#labelGen{
+  position: absolute;
+  bottom:49.5%;
+  left:28.5%;
+}
+
+#randomize{
+  left:10%;
+}
+
+#resetPass{
+  left: 74%;
+}
+
+#copy{
+  left: 41.2%;
+}
+
+#labelLength{
+  position: absolute;
+  top:30%;
+  left:22.5%;
+}
+
+#revealCheckBox{
+  position: absolute;
+  bottom:30%;
+  left:47%;
+}
+
+#checkRevealLabel{
+  position: absolute;
+  bottom:30%;
+  left:31.5%;
+}
